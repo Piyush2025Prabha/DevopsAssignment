@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-05T21:47:26 IST" name="Suite" finished-at="2025-08-05T21:48:00 IST" duration-ms="34184">
+    <groups>
+    </groups>
+    <test started-at="2025-08-05T21:47:26 IST" name="EdgeTest" finished-at="2025-08-05T21:47:53 IST" duration-ms="27254">
+      <class name="SeleniumGrid.AmazonWebUsingParallelTest">
+        <test-method signature="crossBrowserTest(java.lang.String)[pri:0, instance:SeleniumGrid.AmazonWebUsingParallelTest@ba2f4ec]" started-at="2025-08-05T21:47:26 IST" name="crossBrowserTest" finished-at="2025-08-05T21:47:52 IST" duration-ms="26093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowserTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumGrid.AmazonWebUsingParallelTest@ba2f4ec]" started-at="2025-08-05T21:47:52 IST" name="closeBrowser" finished-at="2025-08-05T21:47:53 IST" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SeleniumGrid.AmazonWebUsingParallelTest -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2025-08-05T21:47:26 IST" name="ChromeTest" finished-at="2025-08-05T21:47:53 IST" duration-ms="27441">
+      <class name="SeleniumGrid.AmazonWebUsingParallelTest">
+        <test-method signature="crossBrowserTest(java.lang.String)[pri:0, instance:SeleniumGrid.AmazonWebUsingParallelTest@36ebc363]" started-at="2025-08-05T21:47:26 IST" name="crossBrowserTest" finished-at="2025-08-05T21:47:52 IST" duration-ms="25846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowserTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumGrid.AmazonWebUsingParallelTest@36ebc363]" started-at="2025-08-05T21:47:52 IST" name="closeBrowser" finished-at="2025-08-05T21:47:53 IST" duration-ms="1453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SeleniumGrid.AmazonWebUsingParallelTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-08-05T21:47:26 IST" name="FirefoxTest" finished-at="2025-08-05T21:48:00 IST" duration-ms="34183">
+      <class name="SeleniumGrid.AmazonWebUsingParallelTest">
+        <test-method signature="crossBrowserTest(java.lang.String)[pri:0, instance:SeleniumGrid.AmazonWebUsingParallelTest@367ffa75]" started-at="2025-08-05T21:47:26 IST" name="crossBrowserTest" finished-at="2025-08-05T21:47:57 IST" duration-ms="31292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowserTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumGrid.AmazonWebUsingParallelTest@367ffa75]" started-at="2025-08-05T21:47:57 IST" name="closeBrowser" finished-at="2025-08-05T21:48:00 IST" duration-ms="2759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SeleniumGrid.AmazonWebUsingParallelTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
