@@ -9,7 +9,7 @@
 
   <name>AutomationUsingDocker</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://www.amazon.in/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -50,7 +50,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- Path to your TestNG XML suite -->
-						<suiteXmlFile>GridTest.xml</suiteXmlFile>
+						<suiteXmlFile>src\test\java\SeleniumGrid\GridTest.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
