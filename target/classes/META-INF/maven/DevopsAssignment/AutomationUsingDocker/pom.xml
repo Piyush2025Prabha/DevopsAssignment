@@ -50,7 +50,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- Path to your TestNG XML suite -->
-						<suiteXmlFile>CRM.xml</suiteXmlFile>
+						<suiteXmlFile>GridTest.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
