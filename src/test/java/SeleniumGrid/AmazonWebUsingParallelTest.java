@@ -15,7 +15,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 public class AmazonWebUsingParallelTest {
-	  public WebDriver Driver;	  
+	public WebDriver Driver;	  
 	  @Parameters({"bname"})
 	  @Test
 	  public void crossBrowserTest(String bname) throws MalformedURLException, InterruptedException {
@@ -23,15 +23,15 @@ public class AmazonWebUsingParallelTest {
 		  if(bname.equals("Chrome")) {
 			  ChromeOptions Options = new ChromeOptions();
 			  Driver = new RemoteWebDriver(new URL("http://localhost:4444"),Options);
-			  System.out.println("Session created on Chrome");
+			  System.out.println("Session created on Google Chrome Browser");
 		  }else if(bname.equals("Firefox")) {
 			  FirefoxOptions Options = new FirefoxOptions();
 			  Driver = new RemoteWebDriver(new URL("http://localhost:4444"),Options);
-			  System.out.println("Session created on Firefox");
+			  System.out.println("Session created on Firefox Browser");
 		  }else if(bname.equals("Edge")) {
 			  EdgeOptions options = new EdgeOptions();
 			  Driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options); 		  
-			  System.out.println("Session created on Edge");
+			  System.out.println("Session created on Microsoft Edge Browser");
 		  }
 		  System.out.println("Remote Driver connectivity is completed successfully");
 		  Driver.manage().window().maximize();
